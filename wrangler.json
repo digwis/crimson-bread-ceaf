@@ -1,0 +1,30 @@
+{
+  "name": "crimson-bread-ceaf",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "curly-dew-9b6f-d1",
+      "database_id": "4d5789cf-1a87-4e07-8061-ad7735385e1d"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "crimson-bread-ceaf-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
